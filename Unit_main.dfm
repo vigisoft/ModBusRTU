@@ -4,35 +4,43 @@ object Form1: TForm1
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'ModBusRTU, ver. 3.0 [TS]'
-  ClientHeight = 463
-  ClientWidth = 485
+  ClientHeight = 347
+  ClientWidth = 364
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -13
+  Font.Height = -10
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
   Position = poScreenCenter
-  PixelsPerInch = 120
-  TextHeight = 16
+  PixelsPerInch = 96
+  TextHeight = 12
   object Button_ConnectOn: TButton
-    Left = 24
-    Top = 383
-    Width = 441
-    Height = 33
-    Caption = #1053#1072#1095#1072#1090#1100' '#1086#1087#1088#1086#1089
+    Left = 18
+    Top = 287
+    Width = 331
+    Height = 25
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'Iniciar pesquisa'
     TabOrder = 0
     OnClick = Button_ConnectOnClick
   end
   object Memo_Data: TMemo
-    Left = 24
-    Top = 8
-    Width = 441
-    Height = 313
+    Left = 18
+    Top = 6
+    Width = 331
+    Height = 235
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
+    Font.Height = -11
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
@@ -41,20 +49,28 @@ object Form1: TForm1
     TabOrder = 1
   end
   object Button_ConnectOff: TButton
-    Left = 24
-    Top = 424
-    Width = 441
-    Height = 32
-    Caption = #1054#1089#1090#1072#1085#1086#1074#1080#1090#1100' '#1086#1087#1088#1086#1089
+    Left = 18
+    Top = 318
+    Width = 331
+    Height = 24
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'Parar'
     TabOrder = 2
     OnClick = Button_ConnectOffClick
   end
   object RadioGroup_TypeRead: TRadioGroup
-    Left = 32
-    Top = 327
-    Width = 433
-    Height = 42
-    Caption = #1056#1077#1078#1080#1084' '#1095#1090#1077#1085#1080#1103' '#1076#1072#1085#1085#1099#1093
+    Left = 24
+    Top = 245
+    Width = 325
+    Height = 32
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'Modo de leitura de dados'
     Columns = 3
     ItemIndex = 0
     Items.Strings = (

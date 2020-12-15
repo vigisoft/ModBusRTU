@@ -11,7 +11,7 @@ function ConvertArrByteToStr(arr: array of byte; len: integer): string;
 implementation
 
 function byteToWord(byte1, byte2: byte): word;
-// Преобразование 2 байт в слово
+// Conversгo de 2 bytes na palavra
 var
   bytesNum: array [0 .. 1] of byte;
 begin
@@ -21,7 +21,7 @@ begin
 end;
 
 function byteToReal(byte1, byte2, byte3, byte4: byte): single;
-// Преобразование 4 байт в вещественное число
+// Conversгo de 4 bytes para o topo
 var
   bytesFloat: array [0 .. 3] of byte;
 begin
@@ -33,7 +33,7 @@ begin
 end;
 
 function ConvertArrByteToStr(arr: array of byte; len: integer): string;
-// Функция преобразования массива байт в строку
+// A funзгo de conversгo da massa й adicionada а linha
 var
   i: integer;
   s: string;
