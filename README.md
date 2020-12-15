@@ -1,4 +1,4 @@
 # ModBusRTU
-Пример работы с ModBusRTU на Delphi
+Um exemplo de trabalho com ModBusRTU em Delphi
 
 ![screenshot](screenshot.png)
